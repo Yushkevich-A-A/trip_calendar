@@ -1,0 +1,8 @@
+{
+  "name": "trip_calendar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Yushkevich-A-A/trip_calendar.git",
+  "author": "Yushkevich-A-A <Mortifer1993@yandex.ru>",
+  "license": "MIT"
+}
