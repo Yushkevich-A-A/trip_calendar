@@ -1,0 +1,3 @@
+.Link_fontWeight_bold{font-weight:700}
+.Link{text-decoration:none;outline:0;touch-action:manipulation;-webkit-tap-highlight-color:transparent}.Link[aria-disabled=true]{pointer-events:none}
+.Link{cursor:pointer}.Link[aria-disabled=true]{cursor:default}

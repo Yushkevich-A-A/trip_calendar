@@ -1,0 +1,86 @@
+.calendar {
+    position: absolute;
+    padding: 10px;
+    border: 1px solid #cfcfcf;
+    background-color: #ffffff;
+    z-index: 1;
+  }
+  
+  .month {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .month-name {
+    text-align: center;
+  }
+  
+  
+  .month-arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
+  }
+  
+  .arrow-left {
+    border-left: 2px solid #555555;
+    border-bottom: 2px solid #555555;
+  }
+  
+  .arrow-right {
+    border-top: 2px solid #555555;
+    border-right: 2px solid #555555;
+  }
+  
+  .name-month-day {
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+  }
+  
+  .month-day {
+    text-align: center;
+    padding: 3px;
+  }
+  
+  .unavailable {
+    cursor: no-drop;
+    color: #adadad;
+  }
+  
+  .active {
+    background-color: red;
+    border-radius: 40px;
+    color: white;
+  }
+  
+  .select {
+    cursor: pointer;
+    position: relative;
+  }
+
+  .select::after {
+    content: "";
+    display: inline-block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    border: 2px solid red;
+    border-radius: 30px;
+    pointer-events: none;
+  }
