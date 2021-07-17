@@ -26,20 +26,31 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+
   .arrow-left,
   .arrow-right {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow-left::after,
+  .arrow-right::after {
+    content: "";
+    display: inline-block;
     transform: rotate(45deg);
     width: 8px;
     height: 8px;
   }
   
-  .arrow-left {
+  .arrow-left::after {
     border-left: 2px solid #555555;
     border-bottom: 2px solid #555555;
   }
   
-  .arrow-right {
+  .arrow-right::after {
     border-top: 2px solid #555555;
     border-right: 2px solid #555555;
   }
