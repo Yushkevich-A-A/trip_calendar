@@ -1,12 +1,12 @@
 export default class DrawWidget {
-    constructor() {
-        this.drawForm();
-    }
+  constructor() {
+    this.drawForm();
+  }
 
-    drawForm() {
-        this.div = document.createElement('div');
-        this.div.classList.add('widget-serch-ticket');
-        this.div.innerHTML = `<div class="ticket-search-wrapper">
+  drawForm() {
+    this.div = document.createElement('div');
+    this.div.classList.add('widget-serch-ticket');
+    this.div.innerHTML = `<div class="ticket-search-wrapper">
                                 <div class="ticket-search-background">
                                 <div class="ticket-search">
                                     <h1 class="main-title">Поиск билетов</h1>
@@ -91,7 +91,7 @@ export default class DrawWidget {
                                     </div>
                                 </div>
                                 </div>
-                            </div>`
-        document.body.appendChild(this.div);
-    }
+                            </div>`;
+    document.body.appendChild(this.div);
+  }
 }
